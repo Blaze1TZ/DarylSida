@@ -4,6 +4,7 @@
     <title>Exempel 1 navigation bar</title>
     <meta charset = "utf-8" />
     <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="css/list-tables.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!--wrapper börjar-->
@@ -59,12 +60,80 @@
         Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante.
         Sed eget tellus dui, eget sodales lectus.
       </p>
-      <div class="push"></div>
+    
+<div class="push"></div>
     </div><!--rightcol slutar-->
     </div><!--wrapper2col slutar-->
+    <h1>Lists</h1>
+
+    <!--Unordered list start-->
+    <h2> An Unordered List of Some Veggies </h2>
+       
+    <ul>
+        <li>Cucumbers</li>
+        <li>Onions</li>
+        <li>Cabbage</li>
+    </ul>
+
+        <ul class="unordered">
+          <li>Cucumbers</li>         
+         <li>Onions</li>         
+             <ul class="nested-ul">         
+               <li>Red onions</li>         
+               <li>Yellow onions</li>         
+             </ul>        
+                <li>Cabbage</li>         
+          </ul>
+    <!--Unordered list end-->
+    
+    <!--Ordered list start-->
+    <h2> An Ordered To-Do List </h2>
+
+<ol class="ordered">
+
+<li>Wake up</li>
+
+<li>Eat Breakfast</li>
+
+<li>Take a Shower</li>
+
+<li>Start Playing Video Games</li>
+
+</ol>
+    <!--Ordered list end-->
+    
+    <!--Table start-->
+    <ol class="custom-box-list">
+        <li>This is the first item</li>
+        <li>This is the second item</li>
+        <li>This is the third item</li>
+        <li>This is the fourth item</li>
+        <li>This is the fifth item</li>
+        <li>This is the sixth item</li>
+        <li>This is the seventh item</li>
+        <li>This is the eighth item</li>
+        <li>This is the ninth item</li>
+        <li>This is the tenth item</li>
+    </ol>
+    <!--Table end-->
+    <ul class="list-image">
+        <li> Add text herer </li>
+        <li> Add text herer </li>
+        <li> Add text herer </li>
+    </ul> 
+
+    <h2>Some popular sites</h2>
+    <p>Click on a name to go to that page</p>
+    <ul class="popular-sites">
+     <li><a href="https://www.youtube.com/">Youtube</a></li>
+     <li><a href="https://www.pinterest.se/">Pinterest</a></li>
+     <li><a href="https://www.netflix.com/se-en/">Netflix</a></li>
+    </ul>
+    
     <footer class="footer">
       <p>All rights reserved - &#169; Copyright</p>
     </footer>
-    </div><!--wrapper slutar-->
+    </div>
+    <!--wrapper slutar-->
   </body>
 </html>
