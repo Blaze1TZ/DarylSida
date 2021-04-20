@@ -50,7 +50,7 @@
 }
 
 table, th,td {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0); /*Color Black*/
     border-collapse: collapse;    
 }
 th, td {
@@ -62,11 +62,11 @@ caption {
     text-align: center;
     font-size: italic;
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0); /*Color Black*/
 }
 .table-simple {
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0); /*Color Black*/
+    color: rgb(255, 255, 255); /*Color White*/
 }
 .table-simple tr:nth-child(even) {
     background-color: #da1616;
@@ -79,7 +79,7 @@ caption {
 }
 
 .head-body-foot thead {
-    color: purple;
+    color: rgb(128, 0, 128); /*Color Purple*/
     background-color: rgb(243, 136, 13);
 }
 .head-body-foot tbody {
