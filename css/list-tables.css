@@ -101,3 +101,42 @@ caption {
 .head-body-foot tfoot:hover {
     background-color: #1f8d68;
 }
+
+.many-columns {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ff2424;
+    border-style: double;
+    color: #000000;  
+}
+.many-columns td, th {
+    border-width: 2px;
+    border-color: #ff2424;
+    border-style: double;
+    padding: 10px;
+}
+.many-columns thead {
+    background-color: #42d0ff;
+}
+
+.table-image {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #b30505;
+    border-style: double;
+    color: #000000;
+}
+.table-image td, th {
+  border-width: 2px;
+  border-color: #b30505;
+  border-style: double;
+  padding: 10px;
+}
+.table-image thead {
+  background-color: #ff0000;
+}
